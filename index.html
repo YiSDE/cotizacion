@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="es" xmlns="https://www.w3.org/1999/xhtml">
+
+<head>
+    <!-- [NO TOCAR] Soporte para caracteres -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><!-- [NO TOCAR] Soporte para celulares -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><!-- [NO TOCAR] Soporte para IE/Edge -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /><!-- [NO TOCAR] Eliminar links en Teléfonos -->
+    <meta name="format-detection" content="telephone=no" /><!-- [NO TOCAR] Titulo -->
+    <title>Sixbell CX</title>
+    <style type="text/css">
+        /* ############  SPECIFIC CLIENTS  ############# */
+        /* Force Outlook to provide a "view in browser" message */
+        #outlook a {
+            padding: 0;
+        }
+
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        /* Force Hotmail to display emails at full width */
+        .ExternalClass {
+            width: 100%;
+        }
+
+        /* Force Hotmail to display normal line spacing */
+        .ExternalClass,
+        .ExternalClass p,
+        .ExternalClass span,
+        .ExternalClass font,
+        .ExternalClass td,
+        .ExternalClass div {
+            line-height: 100%;
+        }
+
+        /* Prevent WebKit and Windows mobile changing default text sizes */
+        body,
+        table,
+        td,
+        p,
+        a,
+        li,
+        blockquote {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        /* Remove spacing between tables in Outlook 2007 and up */
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        /* ############ LAYOUT TEMPLATE  ############# */
+        /* Main background template color */
+        .viewport-mail {
+            background-color: #f4f4f4 !important;
+        }
+
+        .container-mail {
+            width: 600px !important;
+            min-width: 320px !important;
+            max-width: 600px !important;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+            max-width: 100% !important;
+            height: auto !important;
+        }
+
+        .desktop {
+            display: block !important;
+            overflow: visible !important;
+            opacity: 1 !important;
+            line-height: auto !important;
+            height: auto !important;
+        }
+
+        .mobile {
+            display: none !important;
+            overflow: hidden !important;
+            opacity: 0 !important;
+            line-height: 0 !important;
+            height: 0 !important;
+        }
+
+        /* Media Queries */
+        @media only screen and (max-width: 500px) {
+            .container-mail {
+                width: 100% !important;
+                min-width: 320px !important;
+                max-width: 600px !important;
+            }
+
+            .table {
+                width: 100% !important;
+            }
+
+            .wrapper50 {
+                padding-left: 50px !important;
+                padding-right: 50px !important;
+            }
+
+            .wrapper40 {
+                padding-left: 40px !important;
+                padding-right: 40px !important;
+            }
+
+            .wrapper20 {
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
+
+            .column {
+                width: 100% !important;
+                height: auto;
+                display: block !important;
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+            }
+
+            .two-column {
+                width: 100% !important;
+            }
+
+            .responsive {
+                width: 100% !important;
+            }
+
+            .responsive90 {
+                width: 90% !important;
+            }
+
+            .responsive70 {
+                width: 70% !important;
+            }
+
+            .responsive50 {
+                width: 50% !important;
+            }
+
+            .paddingbottom20 {
+                padding-bottom: 20px !important;
+            }
+
+            .paddingtop20 {
+                padding-top: 20px !important;
+            }
+
+            .paddingleft20 {
+                padding-left: 20px !important;
+            }
+
+            .paddingright20 {
+                padding-right: 20px !important;
+            }
+
+            .center {
+                float: none !important;
+            }
+
+            .border {
+                border: none !important;
+            }
+
+            .desktop {
+                display: none !important;
+                overflow: hidden !important;
+                opacity: 0 !important;
+                line-height: 0 !important;
+                height: 0 !important;
+            }
+
+            .mobile {
+                display: block !important;
+                overflow: visible !important;
+                opacity: 1 !important;
+                line-height: auto !important;
+                height: auto !important;
+            }
+
+            .padding {
+                padding-left: 0px !important;
+                padding-right: 0px !important;
+            }
+        }
+
+    </style>
+</head>
+
+<body style="margin: 0; padding: 0;">
+    <table border="0" cellpadding="0" cellspacing="0" class="viewport-mail" style="background-color: #f4f4f4;" width="100%">
+        <tbody>
+            <tr>
+                <td>
+                    <!-- Container Mail -->
+                    <table align="center" cellpadding="0" cellspacing="0" class="container-mail" style="background-color: #ffffff;" width="600">
+                        <!-- ==== MAIN BANNER ==== -->
+                        <!--  Desktop  -->
+                        <tbody>
+                            <tr>
+                                <td align="center" style="padding: 20px 10px;">
+                                    <table align="center" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td width="180">
+                                                <img src="https://img.mailinblue.com/5614349/images/content_library/original/68d6c5167b647b426e05db0c.png" width="180" alt="">
+                                            </td>
+                                            <td style="padding: 0px 5px 0px 30px;">
+                                                <table align="center" cellpadding="0" cellspacing="0" width="100%">
+                                                    <tr>
+                                                        <td width="20">
+                                                            <img src="https://img.mailinblue.com/5614349/images/content_library/original/68d6c5167b647b426e05db0b.png" width="20" alt="">
+                                                        </td>
+                                                        <td style="padding: 0px 0px 0px 10px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: left; font-size: 8px;"><a href="https://sixbell.com/cx/" style="color: #777A7F; text-decoration: none;"><b>https://sixbell.com/cx/</b></a></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td style="padding: 0px 5px;">
+                                                <table align="center" cellpadding="0" cellspacing="0" width="100%">
+                                                    <tr>
+                                                        <td width="20">
+                                                            <img src="https://img.mailinblue.com/5614349/images/content_library/original/68d6c515a2b08a86015a7dd5.png" width="20" alt="">
+                                                        </td>
+                                                        <td style="padding: 0px 0px 0px 10px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: left; font-size: 8px;"><a href="https://www.linkedin.com/company/sixbell/" style="color: #777A7F; text-decoration: none;"><b>/company/sixbell/</b></a></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td style="padding: 0px 5px;">
+                                                <table align="center" cellpadding="0" cellspacing="0" width="100%">
+                                                    <tr>
+                                                        <td width="20">
+                                                            <img src="https://img.mailinblue.com/5614349/images/content_library/original/68d6c5167b647b426e05db0a.png" width="20" alt="">
+                                                        </td>
+                                                        <td style="padding: 0px 0px 0px 10px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: left; font-size: 8px;"><a href="mailto:info@sixbell.com" style="color: #777A7F; text-decoration: none;"><b>info@sixbell.com</b></a></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!--  /Desktop  -->
+                            <!-- **** /MAIN BANNER **** -->
+                            <tr>
+                                <td style="word-break:break-word; font-family: Arial, Helvetica, sans-serif !important; color: #000000; text-align: center; font-size: 30px; padding: 50px 0px 10px 0px;" valign="top">Cotización | Nombre Cliente</td>
+                            </tr>
+                            <tr>
+                                <td style="word-break:break-word; font-family: Arial, Helvetica, sans-serif !important; color: #000000; text-align: center; font-size: 15px; padding: 0px 0px 30px 0px;" valign="top">No. 0000 | Fecha 00-00-0000</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0px 20px;">
+                                    <table align="center" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td valign="top" style="padding: 0px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: left; font-size: 12px;">
+                                                <b>Billing To:</b> Universidad Peruana Cayetano Heredia<br>
+                                                <b>End User:</b><br>
+                                                <b>Contact:</b> Ruth Cortez Vidal<br>
+                                                <b>POT No.</b> POT9455<br>
+                                                <b>Quote Date:</b> 07-08-2025
+                                            </td>
+                                            <td valign="top" style="padding: 0px 20px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: left; font-size: 12px;">
+                                                Billing Address<br>
+                                                Av. Honorio Delgado 430, Urbanización Ingeniería, distrito d<br><br>
+
+
+                                                Lima<br>
+                                                Perú
+                                            </td>
+                                            <td valign="top" style="padding: 0px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: left; font-size: 12px;">
+                                                Shipping Address<br>
+                                                Av. Honorio Delgado 430, Urbanización Ingeniería, distrito d<br><br>
+
+                                                Lima<br>
+                                                Perú
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 20px;">
+                                    <table align="center" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td style="border-bottom: 1px solid #000000;"></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0px 20px 30px;">
+                                    <table align="center" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td valign="top" style="padding: 0px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: left; font-size: 12px;">
+                                                KAM: Carlos Lecca<br><br>
+
+                                                Billing Period.: Mensual
+                                            </td>
+                                            <td valign="top" style="padding: 0px 20px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: left; font-size: 12px;">
+                                                Quote Expiration: 01-07-2025<br><br>
+
+                                                Number of billable months: 36
+                                            </td>
+                                            <td valign="top" style="padding: 0px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: left; font-size: 12px;">
+                                                Ramp Period(Months): 4<br><br>
+
+                                                Payment Terms: 30 days
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 20px; border-radius: 100px; background: #AB082C;">
+                                    <table align="center" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td width="68" style="padding: 0px 0px; font-family: Arial, Helvetica, sans-serif !important; color: #ffffff; text-align: left; font-size: 10px;"><b>Item Code</b></td>
+                                            <td width="150" style="padding: 0px 0px; font-family: Arial, Helvetica, sans-serif !important; color: #ffffff; text-align: left; font-size: 10px;"><b>Item Code</b></td>
+                                            <td width="68" style="padding: 0px 0px; font-family: Arial, Helvetica, sans-serif !important; color: #ffffff; text-align: right; font-size: 10px;"><b>Item Code</b></td>
+                                            <td width="68" style="padding: 0px 0px; font-family: Arial, Helvetica, sans-serif !important; color: #ffffff; text-align: right; font-size: 10px;"><b>Item Code</b></td>
+                                            <td width="68" style="padding: 0px 0px; font-family: Arial, Helvetica, sans-serif !important; color: #ffffff; text-align: right; font-size: 10px;"><b>Item Code</b></td>
+                                            <td width="68" style="padding: 0px 0px; font-family: Arial, Helvetica, sans-serif !important; color: #ffffff; text-align: right; font-size: 10px;"><b>Item Code</b></td>
+                                            <td width="68" style="padding: 0px 0px; font-family: Arial, Helvetica, sans-serif !important; color: #ffffff; text-align: right; font-size: 10px;"><b>Item Code</b></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 5px 20px;">
+                                    <table align="center" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: left; font-size: 10px; border-bottom: 1px solid #777A7F;">PRO26 </td>
+                                            <td width="150" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: left; font-size: 10px; border-bottom: 1px solid #777A7F;">Genesys Cloud CX 1 Concurrent</td>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px; border-bottom: 1px solid #777A7F;">48</td>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px; border-bottom: 1px solid #777A7F;">63</td>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px; border-bottom: 1px solid #777A7F;">3.024 0</td>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px; border-bottom: 1px solid #777A7F;">(0 %) </td>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px; border-bottom: 1px solid #777A7F;">3.024</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 5px 20px;">
+                                    <table align="center" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: left; font-size: 10px; border-bottom: 1px solid #777A7F;">PRO26 </td>
+                                            <td width="150" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: left; font-size: 10px; border-bottom: 1px solid #777A7F;">Genesys Cloud CX 1 Concurrent</td>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px; border-bottom: 1px solid #777A7F;">48</td>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px; border-bottom: 1px solid #777A7F;">63</td>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px; border-bottom: 1px solid #777A7F;">3.024 0</td>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px; border-bottom: 1px solid #777A7F;">(0 %) </td>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px; border-bottom: 1px solid #777A7F;">3.024</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 5px 20px;">
+                                    <table align="center" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: left; font-size: 10px; border-bottom: 1px solid #777A7F;">PRO26 </td>
+                                            <td width="150" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: left; font-size: 10px; border-bottom: 1px solid #777A7F;">Genesys Cloud CX 1 Concurrent</td>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px; border-bottom: 1px solid #777A7F;">48</td>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px; border-bottom: 1px solid #777A7F;">63</td>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px; border-bottom: 1px solid #777A7F;">3.024 0</td>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px; border-bottom: 1px solid #777A7F;">(0 %) </td>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px; border-bottom: 1px solid #777A7F;">3.024</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 5px 20px;">
+                                    <table align="center" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: left; font-size: 10px; border-bottom: 1px solid #777A7F;">PRO26 </td>
+                                            <td width="150" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: left; font-size: 10px; border-bottom: 1px solid #777A7F;">Genesys Cloud CX 1 Concurrent</td>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px; border-bottom: 1px solid #777A7F;">48</td>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px; border-bottom: 1px solid #777A7F;">63</td>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px; border-bottom: 1px solid #777A7F;">3.024 0</td>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px; border-bottom: 1px solid #777A7F;">(0 %) </td>
+                                            <td width="68" style="padding: 0px 0px 5px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px; border-bottom: 1px solid #777A7F;">3.024</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 5px 20px 30px;">
+                                    <table align="center" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td width="68" style="padding: 0px 0px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: left; font-size: 10px;"></td>
+                                            <td width="150" style="padding: 0px 0px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: left; font-size: 10px;"></td>
+                                            <td width="68" style="padding: 0px 0px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px;"></td>
+                                            <td width="68" style="padding: 0px 0px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px;"></td>
+                                            <td width="68" style="padding: 0px 0px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px;"></td>
+                                            <td width="68" style="padding: 0px 0px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px;"><b>TOTAL</b></td>
+                                            <td width="68" style="padding: 0px 0px; font-family: Arial, Helvetica, sans-serif !important; color: #777A7F; text-align: right; font-size: 10px;"><b>3.458,4452</b></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0px;">
+                                    <table align="center" cellpadding="0" cellspacing="0" width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td align="center" style="padding: 0px;"><img alt="" src="https://img.mailinblue.com/5614349/images/content_library/original/68d6c516a2b08a86015a7dd6.png" style="display: block; border-width: 0px; border-style: solid; width: 600px;" width="600" /></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table align="center" cellpadding="0" cellspacing="0" width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td align="center" bgcolor="#dddddf" style="padding: 0px 20px 30px;">
+                                                    <table align="center" cellpadding="0" cellspacing="0" width="100%">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td colspan="3" align="center" bgcolor="#dddddf" style="padding: 0px 0px 20px; font-family: Arial, Helvetica, sans-serif !important; color: #000000; text-align: left; font-size: 14px"><b>Términos y Condiciones:</b></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td valign="top" width="180" align="center" bgcolor="#dddddf" style="padding: 0px; font-family: Arial, Helvetica, sans-serif !important; color: #000000; text-align: justify; padding: 0px; font-size: 10px"><b>Duración de la Suscripción:</b> La presente Suscripción tendrá una duración de acuerdo a lo cotizado, incluyendo un período inicial de Ramp Up.<br><br>
+
+                                                                    <b>Compromisos de Plazo, Consumos mínimos (Commit) y Sobreconsumos:</b> El cliente asume el compromiso de mantener la Suscripción durante toda su vigencia y pagar el consumo mínimo estipulado en la presente Suscripción así como también los sobreconsumos por arriba de los mínimos comprometidos o “fair usages” de el o los fabricantes.<br><br>
+
+                                                                    <b>Descuentos por Item:</b> Los descuentos por item en la presente Suscripción están asociados a Compromiso de plazo, Compromiso de Consumo y forma de facturación.<br><br>
+
+
+                                                                    <b>Cancelación Anticipada y Cambios en el Commit:</b> La presente Suscripción no es cancelable durante la vigencia de la misma. Los cambios en el Commit durante la vigencia de la Suscripción se podrán revisar en conjunto con el/los fabricantes siempre y cuando se mantenga o aumente el valor de la Suscripción.
+                                                                </td>
+                                                                <td valign="top" width="180" align="center" bgcolor="#dddddf" style="padding: 0px; font-family: Arial, Helvetica, sans-serif !important; color: #000000; text-align: justify; padding: 0px 10px; font-size: 10px"><b>Inicio de la Suscripción:</b> La Suscripción se iniciará a más tardar 10 días hábiles después de recibida la Orden de Compra o firma de Contrato.<br><br>
+
+
+                                                                    <b>Ramp Up:</b> El período de Ramp Up tiene como objetivo realizar la puesta en producción de la solución. Durante este período, no regirá el compromiso
+                                                                    mínimo de consumo (commit) pero se facturarán los consumos registrados. Una vez iniciada la Suscripción, no será posible modificar las condiciones de plazo del Ramp Up.<br><br>
+
+                                                                    <b>Forma de Facturación:</b> La facturación del Compromiso (commit) se realizará de manera Anual Anticipada o Mensual, dependiendo de la Suscripción contratada.<br><br>
+
+
+                                                                    <b>• Anual Anticipada:</b> Facturación del Commit anual a más tardar 5 días hábiles luego de recibida la Orden de Compra o Firma de Contrato y luego de cada aniversario anual.<br><br>
+
+
+                                                                    <b>• Mensual:</b> Facturación del commit mensual por mes vencido, a más tardar 5 días luego del aniversario mensual de la suscripción
+                                                                </td>
+                                                                <td valign="top" width="180" align="center" bgcolor="#dddddf" style="padding: 0px; font-family: Arial, Helvetica, sans-serif !important; color: #000000; text-align: justify; padding: 0px; font-size: 10px">
+                                                                    La facturación del Sobreconsumo se realizará mensualmente por mes vencido, a más tardar 5 días luego del aniversario mensual de la suscripción de acuerdo al consumo registrado. El consumo registrado en algunos ítems pueden verse reflejados con retrasos de hasta 90 días.<br><br>
+
+
+                                                                    <b>Renovación de la Suscripción:</b> 10 días hábiles antes del fin de la Suscripción, el cliente y SIXBELL podrán llegar a acuerdo en las condiciones de renovación, la que deberá ser formalizada con Orden de Compra y Addendum a Contrato. En caso contrario, todo lo consumido luego del periodo del fin de la suscripción será facturado por SIXBELL al precio de lista estipulado, sin descuentos.<br><br>
+
+
+                                                                    <b>Políticas de Uso Justo o “Fair Usage”:</b> Los fabricantes asociados a esta Suscripción pueden tener políticas de uso justo asociados a consumo de APIs, Storage, Minutos de IVR, Minutos de BYOC, Tokens para IA, entre otros. Es importante revisar periódicamente dichas políticas ya que el consumo por arriba del “uso justo” puede incurrir mensualmente en costos de Sobreconsumo.
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <!-- WHITE SPACE 30 -->
+            <tr>
+                <td height="30" style="height: 30px;"> </td>
+            </tr>
+            <!-- /WHITE SPACE 30 -->
+        </tbody>
+    </table>
+</body>
+
+</html>
